@@ -1,1 +1,0 @@
-class ApiTest{constructor(){console.log("ApiTest"),this.setupListeners()}setupListeners=()=>{document.querySelector("form").addEventListener("submit",this.getData)};getData=e=>{e.preventDefault(),console.log("getting data")}}new ApiTest;
